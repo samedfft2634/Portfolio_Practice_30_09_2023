@@ -84,13 +84,19 @@ nav.banner {
 	/* border: 2px solid red; */
 	position: absolute;
 	top: 50%;
-	left: 20%;
+	/* left: 20%; */
     transition: 0.8s;
     transform: translateX(50%)
 	/* mutlak ortalama */
 	/* top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
+}
+.hero h2,
+.hero h3,
+.hero button {
+    display: block;
+    transition: all .50s ease;
 }
 
 nav.banner .hero h2 {
